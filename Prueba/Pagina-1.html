@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        margin-top: 18px;
+    }
+    .imagen {
+        width: 500px;
+        height: 500px;
+        background-color: bisque;
+        border-radius: 20px;
+        display: grid;
+        place-items: center;
+    }
+    .familia {
+        width: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+        height: 50vh;
+        object-fit: cover;
+        bottom: 27px;
+        position: relative;
+    }
+    .elitha {
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        position: absolute;
+        bottom: 217px;
+    }
+    .parrafos {
+        text-align: center;
+        bottom: -45px;
+        position: relative;
+    }
+    .title {
+        font-weight: bold;
+        background-color: aquamarine;
+        border-radius: 20px;
+    }
+    .gif {
+        width: 40px;
+        left: 118px;
+        position: relative;
+        bottom: 52px;
+        border-radius: 20px;
+    }
+</style>
+<body>
+    <div class="imagen">
+        <img src="Fotos/Familia.jpg" alt="familia" class="familia">
+        <img src="Fotos/Elitha.jpg" alt="elitha" class="elitha">
+        <div class="parrafos">
+            <p class="title">Elitha</p>
+            <p>
+                <span>Es la más hermosa</span>
+            </p>
+            <p>
+                <img src="https://media1.giphy.com/media/HSCZMUa1ao17h7l5mg/giphy.gif?cid=ecf05e47j36ba3jodp2p1jkrcthrtz99q00smb0yru2rshkj&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="gif" class="gif">
+            </p>
+        </div>
+    </div>
+</body>
+</html>
